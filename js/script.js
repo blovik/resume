@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-	// $('.accordion dd > a').on('click', function() {
- //    	$(this).next().toggleClass('active');
-	// });
 
 	$(".toggle-content").hide();
     $(".toggle-title").on('click', function() {
@@ -21,7 +18,7 @@ $(document).ready(function(){
 
 	$('.content').mouseover(function(){
 		$(this).find('span.highlight').fadeIn(5000, function () {
-			$(this).css("background-color", "#F2F7D6");})
+			$(this).css({"background-color": "#F3FF03", "border-radius": "50%"});})
 	});
 
 	$('.content').mouseout(function(){
@@ -29,7 +26,7 @@ $(document).ready(function(){
 	});
 
 	$('.pre').mouseover(function(){
-		$( ".yellow" ).replaceWith( "Hire Brian" );
+		$(this).find("greatDecision").replaceWith( "Hire Brian" );
 	});
 
 	$(".rideBtn").on('click', function () {
@@ -101,8 +98,9 @@ $(document).ready(function(){
 	});
 
 
-
-
+	// @media #{$small-only} { 
+	// $base-font-size: 150%;
+	// }
 
 
 
