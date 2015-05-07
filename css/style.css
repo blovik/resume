@@ -168,6 +168,26 @@ i:hover {
     box-shadow: 0 0 0 transparent;
 }
 
+.school2 {
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 100px;
+    width: 225px;
+    box-shadow: 0 0 0 transparent;
+}
+
+.school3 {
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 100px;
+    width: 160px;
+    box-shadow: 0 0 0 transparent;
+}
+
 /*==================== examples ===================*/
 .examples {
     margin-top: 60px;
