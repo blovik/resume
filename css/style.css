@@ -97,6 +97,7 @@ h4 {
 
 
 /*================== skills ====================*/
+
 pre {
     background-color: #000000;
     color: #ffffff;
@@ -120,12 +121,11 @@ span.blue {
     color: #61D9EF;
 }
 
-
 /*================ more information ==================*/
+
 i:hover {
     text-shadow: 0px 0px 0px #ffffff;
 }
-
 
 /*================== busines card ====================*/
 
@@ -189,12 +189,14 @@ i:hover {
 }
 
 /*==================== examples ===================*/
+
 .examples {
     margin-top: 60px;
     margin-bottom: 20px;
 }
 
 /*================== better example ================*/
+
 .trendy {
     margin: 40px 50px 0px 50px;
 }
@@ -204,9 +206,8 @@ i:hover {
     width: 600px;
 }
 
-
-
 /*================== top & bottom =================*/
+
 .contactTop {
     font-family: quicksand, sans-serif;
     font-size: 3em;
@@ -322,6 +323,7 @@ a:active {
 }
 
 /*==================== toggle ======================*/
+
 .toggle-box {
     margin: 0px;
 }
