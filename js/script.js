@@ -25,8 +25,8 @@ $(document).ready(function(){
 		$(this).find('span.highlight').css("background-color", "#ffffff");
 	});
 
-	$('.pre').mouseover(function(){
-		$(this).find("greatDecision").replaceWith( "Hire Brian" );
+	$('.hire').mouseover(function(){
+		$(this).find("greatDecision").replaceWith("Hire Brian");
 	});
 
 	$(".rideBtn").on('click', function () {
